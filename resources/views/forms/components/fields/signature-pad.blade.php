@@ -56,7 +56,7 @@
                         'readonly' => $isReadOnly(),
                         'required' => $isRequired() && (! $isConcealed),
                     ], escape: false) }}
-                style="max-height: 100px !important; max-width: 800px !important; border-style: dashed; border-width: initial"
+                style="max-height: 200px !important; max-width: 800px !important; border-style: dashed; border-width: initial"
                 class="w-full h-full m-2 mx-auto border-dashed rounded-md dark:border-gray-700 before:content-[attr(before)]">
             </canvas>
             <div class="flex mt-2 justify-center space-x-2">
