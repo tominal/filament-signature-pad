@@ -36,7 +36,9 @@
             backgroundColor: '{{$getBackgroundColor()}}',
             id: '{{ $id }}',
         })"
-        class="p-2 md:p-4 bg-white dark:bg-gray-500 sm:rounded-md">
+        class="p-2 md:p-4 bg-white dark:bg-gray-500 sm:rounded-md"
+        style="padding-bottom: 3.5rem;"
+    >
         @if($displayTemplate)
             <template x-if="state">
                 <img class="border mx-auto dark:border-gray-700 rounded-lg w-full max-w-[800px]" alt="current_signature" :src="state">
